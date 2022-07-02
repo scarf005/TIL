@@ -13,7 +13,7 @@
     
     
       
-        <title>키보드, 단축키 그리고 IBus - TIL@scarf</title>
+        <title>`actions/setup-python`을 효율적으로 쓰자 - TIL@scarf</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ibus" class="md-skip">
+        <a href="#actionssetup-python" class="md-skip">
           콘텐츠로 이동
         </a>
       
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              키보드, 단축키 그리고 IBus
+              `actions/setup-python`을 효율적으로 쓰자
             
           </span>
         </div>
@@ -219,22 +219,6 @@
         
   
   
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../%EA%B9%83%ED%97%88%EB%B8%8C/action/" class="md-tabs__link">
-        깃허브
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
     
   
 
@@ -244,6 +228,22 @@
   
     <li class="md-tabs__item">
       <a href="./" class="md-tabs__link md-tabs__link--active">
+        깃허브
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../%EC%9A%B0%EB%B6%84%ED%88%AC/keyboard/" class="md-tabs__link">
         우분투
       </a>
     </li>
@@ -342,12 +342,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -368,11 +370,80 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../%EA%B9%83%ED%97%88%EB%B8%8C/action/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          `actions/setup-python`을 효율적으로 쓰자
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         `actions/setup-python`을 효율적으로 쓰자
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    예제 파일
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actions" class="md-nav__link">
+    actions/ 계정은
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actionssetup-python_1" class="md-nav__link">
+    actions/setup-python이란
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github-action" class="md-nav__link">
+    사실 github action 컨테이너에는 파이썬이 이미 깔려있다
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    파이썬 의존성 캐시해놓기
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -390,14 +461,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       
       
@@ -418,52 +487,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          키보드, 단축키 그리고 IBus
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../%EC%9A%B0%EB%B6%84%ED%88%AC/keyboard/" class="md-nav__link">
         키보드, 단축키 그리고 IBus
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="목차">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      목차
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#ctrl" class="md-nav__link">
-    ctrl+; 를 눌렀을 시 입력이 되지 않고 이상하게 동작함
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -517,8 +545,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ctrl" class="md-nav__link">
-    ctrl+; 를 눌렀을 시 입력이 되지 않고 이상하게 동작함
+  <a href="#_1" class="md-nav__link">
+    예제 파일
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actions" class="md-nav__link">
+    actions/ 계정은
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actionssetup-python_1" class="md-nav__link">
+    actions/setup-python이란
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github-action" class="md-nav__link">
+    사실 github action 컨테이너에는 파이썬이 이미 깔려있다
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    파이썬 의존성 캐시해놓기
   </a>
   
 </li>
@@ -535,7 +591,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-  <a href="https://github.com/scarf005/TIL/edit/master/docs/우분투/keyboard.md" title="이 페이지를 편집" class="md-content__button md-icon">
+  <a href="https://github.com/scarf005/TIL/edit/master/docs/깃허브/action.md" title="이 페이지를 편집" class="md-content__button md-icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
@@ -544,21 +600,91 @@
 
 
 
-<h1 id="ibus">키보드, 단축키 그리고 IBus</h1>
-<h2 id="ctrl"><code>ctrl+;</code> 를 눌렀을 시 입력이 되지 않고 이상하게 동작함</h2>
-<p><img alt="" src="../IBus%20%EA%B8%B0%EB%B3%B8%20%EC%84%A4%EC%A0%95_01.png" /></p>
+<h1 id="actionssetup-python"><code>actions/setup-python</code>을 효율적으로 쓰자</h1>
+<h2 id="_1">예제 파일</h2>
+<p><a href="https://github.com/scarf005/til/blob/main/.github/workflows/ci.yml">.github/workflows/ci.yml</a></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-0-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-0-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-0-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-0-10">10</a></span>
+<span class="normal"><a href="#__codelineno-0-11">11</a></span>
+<span class="normal"><a href="#__codelineno-0-12">12</a></span>
+<span class="normal"><a href="#__codelineno-0-13">13</a></span>
+<span class="normal"><a href="#__codelineno-0-14">14</a></span>
+<span class="normal"><a href="#__codelineno-0-15">15</a></span>
+<span class="normal"><a href="#__codelineno-0-16">16</a></span>
+<span class="normal"><a href="#__codelineno-0-17">17</a></span>
+<span class="normal"><a href="#__codelineno-0-18">18</a></span>
+<span class="normal"><a href="#__codelineno-0-19">19</a></span>
+<span class="normal"><a href="#__codelineno-0-20">20</a></span>
+<span class="normal"><a href="#__codelineno-0-21">21</a></span>
+<span class="normal"><a href="#__codelineno-0-22">22</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deploy</span><span class="w"></span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="nt">on</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">main</span><span class="w"></span>
+<a id="__codelineno-0-7" name="__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="nt">jobs</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="w">  </span><span class="nt">deploy</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ubuntu-latest</span><span class="w"></span>
+<a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/checkout@v3</span><span class="w"></span>
+<a id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="w">          </span><span class="nt">fetch-depth</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span><span class="w"> </span><span class="c1"># for git-revision-date-localized</span><span class="w"></span>
+<a id="__codelineno-0-15" name="__codelineno-0-15"></a>
+<a id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/setup-python@v4</span><span class="w"></span>
+<a id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-0-18" name="__codelineno-0-18"></a><span class="w">          </span><span class="nt">python-version</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;3.10&quot;</span><span class="w"></span>
+<a id="__codelineno-0-19" name="__codelineno-0-19"></a><span class="w">          </span><span class="nt">cache</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pip</span><span class="w"></span>
+<a id="__codelineno-0-20" name="__codelineno-0-20"></a>
+<a id="__codelineno-0-21" name="__codelineno-0-21"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pip install -r requirements.txt</span><span class="w"></span>
+<a id="__codelineno-0-22" name="__codelineno-0-22"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">mkdocs gh-deploy --force</span><span class="w"></span>
+</code></pre></div></td></tr></table></div>
+<h2 id="actions"><a href="https://github.com/actions">actions/</a> 계정은</h2>
 <ul>
-<li><code>ibus-setup</code> 실행</li>
-<li><code>이모지</code> 탭에서 <code>키보드 바로 가기 키</code> 전체 제거</li>
+<li>깃허브에서 기본 제공해주는 워크플로우 확장 모음</li>
+<li>유용하다</li>
 </ul>
-<p><a href="https://forums.debian.net/viewtopic.php?f=6&amp;p=752386">관련 링크</a></p>
+<h2 id="actionssetup-python_1"><code>actions/setup-python</code>이란</h2>
+<ul>
+<li>파이썬 버전 설치를 쉽게 해준다</li>
+<li>여러 파이썬 버전 관리를 할 수 있다</li>
+</ul>
+<h2 id="github-action">사실 <code>github action</code> 컨테이너에는 파이썬이 이미 깔려있다</h2>
+<ul>
+<li><a href="https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners#supported-software">여기</a>서 컨테이너별로 기본 설치된 프로그램 목록을 확인할 수 있다</li>
+<li><a href="https://github.com/actions/virtual-environments/issues/5490">우분투 컨테이너에 설치된 소프트웨어 비교</a></li>
+</ul>
+<dl>
+<dt><code>Ubuntu 20.04 LTS</code></dt>
+<dd>
+<ul>
+<li>기본 버전 <code>3.8.x</code>, 캐시 버전 [<code>2.7</code>, <code>3.6</code>, <code>3.7</code>, <code>3.8</code>, <code>3.9</code>, <code>3.10</code>]</li>
+</ul>
+</dd>
+<dt><code>Ubuntu 22.04 LTS</code></dt>
+<dd>기본 버전 <code>3.10.x</code>, 캐시 버전 [<code>3.7</code>, <code>3.8</code>, <code>3.9</code>, <code>3.10</code>]</dd>
+</dl>
+<h2 id="_2">파이썬 의존성 캐시해놓기</h2>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#__codelineno-1-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="nt">with</span><span class="p">:</span><span class="w"></span>
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="w">  </span><span class="nt">cache</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pip</span><span class="w"></span>
+</code></pre></div></td></tr></table></div>
+<p><code>pip</code> 의존성을 캐싱할 수 있다! 그밖에도 <a href="https://github.com/actions/setup-python#caching-packages-dependencies"><code>pipenv</code>나 <code>poetry</code>도 가능</a></p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       마지막 업데이트:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2022-07-02 14:47:45</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2022-07-02 22:00:13</span>
       
     
   </small>
@@ -578,7 +704,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../../%EA%B9%83%ED%97%88%EB%B8%8C/action/" class="md-footer__link md-footer__link--prev" aria-label="이전: `actions/setup-python`을 효율적으로 쓰자" rel="prev">
+        <a href="../../tags.html" class="md-footer__link md-footer__link--prev" aria-label="이전: None" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -587,20 +713,20 @@
               <span class="md-footer__direction">
                 이전
               </span>
-              `actions/setup-python`을 효율적으로 쓰자
+              None
             </div>
           </div>
         </a>
       
       
         
-        <a href="../../tags.html" class="md-footer__link md-footer__link--next" aria-label="다음: Tags" rel="next">
+        <a href="../../%EC%9A%B0%EB%B6%84%ED%88%AC/keyboard/" class="md-footer__link md-footer__link--next" aria-label="다음: 키보드, 단축키 그리고 IBus" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 다음
               </span>
-              Tags
+              키보드, 단축키 그리고 IBus
             </div>
           </div>
           <div class="md-footer__button md-icon">
