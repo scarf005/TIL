@@ -1,0 +1,4 @@
+site_name: TIL@scarf
+repo_url: https://github.com/scarf005/TIL/
+theme:
+  name: material
