@@ -1,0 +1,24 @@
+:root > * {
+  --md-accent-fg-color: var(--md-primary-fg-color);
+}
+
+.md-tag {
+  border-radius: 0;
+}
+
+.md-tag[href] {
+  transition-duration: 0ms;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: teal;
+  --md-code-fg-color: coral;
+  --md-code-bg-color: lavender;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: indianred;
+  --md-default-fg-color--light: lightcoral;
+  --md-code-fg-color: lightskyblue;
+  --md-code-bg-color: lightslategray;
+}
