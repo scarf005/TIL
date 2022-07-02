@@ -35,6 +35,9 @@ plugins:
       timezone: Asia/Seoul
 
 markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.highlight:
       linenums: true
       anchor_linenums: true
