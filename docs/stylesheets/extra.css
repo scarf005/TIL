@@ -1,7 +1,13 @@
 [data-md-color-scheme="default"] {
   --md-primary-fg-color: teal;
+  --md-code-fg-color: coral;
+  --md-code-bg-color: lavender;
+  /* #e9e0e9 */
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: rgb(185, 86, 99);
+  --md-primary-fg-color: indianred;
+  --md-default-fg-color--light: lightcoral;
+  --md-code-fg-color: lightskyblue;
+  --md-code-bg-color: lightslategray;
 }
