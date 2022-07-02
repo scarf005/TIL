@@ -24,11 +24,14 @@ theme:
     - navigation.tabs
     - search.suggest
     - search.highlight
+    - header.autohide
 
 plugins:
   - search
-  - tags:
-      tags_file: tags.md
+  - tags
+
+extra:
+  generator: false # hides footer
 
 extra_css:
   - stylesheets/extra.css
