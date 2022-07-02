@@ -29,6 +29,9 @@ theme:
 plugins:
   - search
   - tags
+  - git-revision-date-localized:
+      type: iso_datetime
+      timezone: Asia/Seoul
 
 extra:
   generator: false # hides footer
