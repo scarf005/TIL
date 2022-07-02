@@ -1,0 +1,7 @@
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: teal;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: rgb(185, 86, 99);
+}
