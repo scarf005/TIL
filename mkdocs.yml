@@ -28,7 +28,8 @@ theme:
 
 plugins:
   - search
-  - tags
+  - tags:
+      tags_file: tags.md
   - git-revision-date-localized:
       type: iso_datetime
       timezone: Asia/Seoul
