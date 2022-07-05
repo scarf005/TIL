@@ -12,7 +12,6 @@ mkdocs==1.3.0
 mkdocs-git-revision-date-localized-plugin==1.0.1
 mkdocs-material==8.3.8
 mkdocs-material-extensions==1.0.3
--e git+https://github.com/taivo/mkdocs-simple-tags@356802d237c94ac77b33caa8fdd823ad43d0d62c#egg=mkdocs_plugin_tags
 packaging==21.3
 Pygments==2.12.0
 pymdown-extensions==9.5
