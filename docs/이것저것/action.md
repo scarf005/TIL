@@ -1,6 +1,8 @@
 ---
 tags:
-  - python
+  - 파이썬
+  - 깃허브
+  - Git
 ---
 
 # `actions/setup-python`을 효율적으로 쓰자
